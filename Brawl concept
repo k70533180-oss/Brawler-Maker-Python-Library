@@ -1,0 +1,27 @@
+
+    brawlername="Nova",
+    description="Nova is an intergalactic bounty hunter using energy siphoning technology to drain enemies and punish them with cosmic force.",
+    hp=3600,
+    speed=770,
+    icon="sandy",
+    rarity="epic",
+    attack_name="Energy Leech",
+    attack_description="Fires a piercing orb that steals energy from enemies. Hitting enemies increases her next attack’s power.",
+    reloadtime=1400,
+    ammonumber=3,
+    range=26,
+    numberofprojectiles=1,
+    spread=0,
+    damage=500,
+    projectile=projectiles.SandyProjectile,
+    ulti_name="Starfall Barrage",
+    ulti_description="Unleashes a spread of cosmic comets that explode on impact, dealing area damage and slowing enemies for a short time.",
+    ulti_spread=80,
+    ulti_range=22,
+    ulti_numberofprojectiles=5,
+    ulti_damage=700,
+    ulti_projectile=projectiles.BarleyUltiProjectile
+)
+
+brawler.generate_files()
+brawler.export_csv_logic_to_apk()
